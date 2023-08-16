@@ -1,0 +1,30 @@
+body{
+    background-color: #CB6363;
+}
+::placeholder{
+    columns: #fff !important;
+}
+.container{
+    max-width: 400px;
+}
+
+.todos li{
+    background-color: #D87E7E;
+    border-color:#D87E7E;
+    margin:1px;
+    color: #fff;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color:#fff;
+    border: none;
+    background-color: rgba(0,0,0,0.2);
+}
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important; /*bu classa sahip olan element görünmez hale gelir.*/
+}
